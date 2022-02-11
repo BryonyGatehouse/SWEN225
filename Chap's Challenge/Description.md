@@ -13,3 +13,13 @@ The game should adopt high-level architecture consisting of four core components
 - The **Application** package. This is responsible for managing the functionality of the game (e.g. starting new games, loading/saving games, moving the player, managing the application window(s), etc).
 - The **Renderer** package. This is responsible for drawing the maze onto a canvas and mapping key strokes on the canvas back to objects in the game world, etc.
 - The **Persistence** package. This is responsible for reading map files and reading/writing files representing the current game state. 
+
+![](Architecture.png)
+
+It is recommended to separate the components among team members. 
+
+### Personal Role in Project
+
+I choose to work on the **Application** package which required a large amount of communication with the other team members and their packages. 
+
+The Application should provide a Graphical User Interface through which the players can see the maze and interact with it through specific key strokes. The window should show the time left, the current level, the number of treasures left to be collected and buttons and menu items to pause, exit, save or resume a game. This does not include the drawing of the maze, which is part of the rendering package. 
