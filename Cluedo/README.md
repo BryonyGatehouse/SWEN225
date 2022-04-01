@@ -10,6 +10,8 @@ Design the classes using CRC cards to delegate responsibilities. Design the layo
 
 Create a program which uses the command line interface to play Cluedo. The user interacts with the program by typing in their commands. 
 
+See a version of a game [here](Example%20of%20Text%20Game.md).
+
 ## GUI Based Version
 
 Create a program which has a GUI to play Cluedo. The user can use buttons or the mouse to interact with the program.
